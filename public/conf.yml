@@ -63,20 +63,6 @@ sections:
         description: Issue tracking system
         url: https://track.mana.build
         id: 9_716_youtrack
-  - name: Stats
-    icon: ''
-    displayData:
-      sortBy: alphabetical
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      widgets:
-      - type: code-stats
-        updateInterval: 300
-        options:
-          username: natehouk
   - name: Epsilon Records
     icon: ''
     displayData:
