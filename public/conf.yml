@@ -63,21 +63,6 @@ sections:
         description: Issue tracking system
         url: https://track.mana.build
         id: 9_716_youtrack
-  - name: Health Checks
-    icon: ''
-    displayData:
-      sortBy: alphabetical
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      widgets:
-      - type: HealthChecks
-        updateInterval: 60
-        options:
-          apiKey: 
-            - rbj8YY3uuQlRaJRqpIlnBTH4kREEQmAG
   - name: Domains
     icon: ''
     displayData:
