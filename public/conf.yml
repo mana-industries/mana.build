@@ -1,47 +1,484 @@
 ---
-# Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: MANA
+  description: Unleash your musical potential.
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
+    - title: System Status
+      path: https://mana.fail
+      target: sametab
+    - title: Email
+      path: https://mail.epsilonrecords.com
+      target: sametab
+  footerText: © 2023 MANA Group
 appConfig:
-  theme: colorful
-
-# Main content - An array of sections, each containing an array of items
+  theme: dashy-docs
+  layout: horizontal
+  iconSize: large
+  language: en
+  disableConfiguration: true
+  defaultOpeningMethod: sametab
+  statusCheck: true
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  
+  - name: MANA Group
+    icon: ''
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Home
+        description: MANA
+        icon: ''
+        url: https://mana.party
+        id: 0_716_home
+      - title: Argo CD
+        description: Kubernetes automation
+        url: https://cd.mana.build
+        statusCheck: false
+        id: 2_716_argocd
+      - title: Gitea
+        description: Git code repository
+        url: https://git.mana.build
+        statusCheck: false
+        id: 3_716_gitea
+      - title: Chat
+        description: Chat server
+        url: https://chat.mana.party
+        id: 4_716_gitea
+      - title: Prometheus
+        description: Prometheus monitoring
+        url: https://prometheus.mana.build
+        id: 5_716_prometheus
+      - title: Auth0
+        description: Authorization server
+        url: https://auth.mana.party
+        id: 7_716_auth0
+      - title: API
+        description: Application programming interface
+        url: https://api.mana.party
+        id: 8_716_api
+      - title: YouTrack
+        description: Issue tracking system
+        url: https://track.mana.build
+        id: 9_716_youtrack
+  - type: code-stats
+    updateInterval: 300
+    options:
+      username: natehouk
+  - type: github-profile-stats
+    updateInterval: 300
+    options:
+      username: natehouk
+      repos:
+      - natehouk/mana.party
+      - natehouk/mana.industries
+      - natehouk/manamusic.app
+  - type: HealthChecks
+    updateInterval: 60
+    options:
+      apiKey: 
+        - rbj8YY3uuQlRaJRqpIlnBTH4kREEQmAG
+  - type: domain-monitor
+    options:
+      domain: mana.party
+      apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+  - type: domain-monitor
+    options:
+      domain: mana.industries
+      apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+  - type: domain-monitor
+    options:
+      domain: mana.fail
+      apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+  - type: domain-monitor
+    options:
+      domain: manamusic.app
+      apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+  - name: Epsilon Records
+    icon: ''
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Home
+        description: Epsilon Records
+        icon: ''
+        url: https://epsilonrecords.nl
+        id: 0_716_home
+      - title: Merch Shop
+        description: Merch Shop
+        icon: ''
+        url: https://epsilon.gifts
+        id: 1_716_merchshop
+      - title: Blog
+        description: Read our blog
+        url: https://epsilonrecords.nl/blog
+        id: 2_716_blog
+      - title: Contact
+        description: Contact us
+        url: https://epsilonrecords.nl/contact
+        id: 3_716_contact
+      - title: Our Artists
+        description: Our label artists
+        url: https://epsilonrecords.nl/artists
+        id: 4_716_ourartists
+      - title: About
+        description: About the label
+        url: https://epsilonrecords.nl/about
+        id: 5_716_about
+      - title: Our Team
+        description: About our team
+        url: https://epsilonrecords.nl/team
+        id: 6_716_ourteam
+      - title: Patreon
+        description: Support indie music
+        icon: ''
+        url: https://patreon.com/epsilonrecords
+        statusCheck: false
+        id: 2_965_patreon
+  - name: Timezones
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    widgets:
+      - type: clock
+        options:
+          timeZone: Europe/London
+          format: en-GB
+          hideDate: false
+      - type: clock
+        options:
+          timeZone: Europe/Amsterdam
+          format: en-GB
+          hideDate: false
+  - name: Artists
+    icon: ''
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Register
+        description: Artist registration
+        url: https://epsilonrecords.nl/register
+        id: 0_746_register
+      - title: Submit Demo
+        description: Submit a demo
+        url: https://www.labelradar.com/labels/epsilonrecords/portal
+        id: 4_746_submitdemo
+      - title: Label Services
+        description: Services we offer
+        url: https://epsilonrecords.nl/services
+        id: 6_746_labelservices
+      - title: Upload Media
+        description: Private media server
+        url: https://epsilon.tube
+        statusCheck: false
+        id: 8_746_uploadmedia
+      - title: Upload Photos
+        description: Label photo gallery
+        url: https://epsilon.pics
+        id: 9_746_uploadphotos
+      - title: Book Meeting
+        description: Book a meeting with the team
+        url: https://epsilonrecords.nl/meeting
+        id: 7_716_bookameeting
+      - title: Submit Demo
+        description: Request feedback on demo
+        url: https://epsilonrecords.nl/demo
+  - name: Merch
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: News
+        description: What's new at Epsilon?
+        url: https://epsilon.gifts/blogs/news
+        id: 0_495_news
+      - title: All Collections
+        description: All Collections
+        url: https://epsilon.gifts/collections
+        id: 1_495_allcollections
+      - title: All Products
+        description: All Products
+        url: https://epsilon.gifts/collections/all
+        id: 2_495_allproducts
+      - title: Accessories
+        description: Accessories
+        url: https://epsilon.gifts/collections/accessories
+        id: 3_495_accessories
+      - title: Clothing
+        description: Clothing
+        url: https://epsilon.gifts/collections/clothing
+        id: 4_495_clothing
+      - title: Eurorack
+        description: Eurorack
+        url: https://epsilon.gifts/collections/eurorack
+        id: 5_495_eurorack
+      - title: Merch
+        description: Epsilon Merch
+        url: https://epsilon.gifts/collections/merch
+        id: 6_495_merch
+      - title: Vinyl
+        description: New and Used Vinyl
+        url: https://epsilon.gifts/collections/vinyl
+        id: 7_495_vinyl
+  - name: Community
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Discord
+        description: Join our Discord!
+        url: https://discord.gg/epsilonrecords
+        id: 1_965_discord
+      - title: Bandcamp
+        description: Buy our artists' music direct
+        url: https://epsilonrecords.bandcamp.com
+        id: 0_513_bandcamp
+      - title: Spotify
+        description: Follow our Spotify playlist!
+        url: https://open.spotify.com/playlist/3V3NcVTRCHomITtmWLb86I?si=62e2cd20a3f448b3
+        id: 1_513_spotifyplaylist
+      - title: Soundcloud
+        description: SoundCloud
+        url: https://soundcloud.com/epsilonrecords
+        id: 2_513_soundcloud
+      - title: Mixcloud
+        description: Mixcloud
+        url: https://mixcloud.com/epsilonrecords
+        id: 3_513_mixcloud
+      - title: YouTube
+        description: YouTube
+        url: https://youtube.com/epsilonrecords
+        id: 4_513_youtube
+      - title: Twitch
+        description: Twitch
+        url: https://twitch.tv/epsilonrecords
+        id: 5_513_twitch
+      - title: TikTok
+        description: TikTok
+        url: https://www.tiktok.com/@epsilonrecords
+        id: 0_603_tiktok
+        statusCheck: false
+      - title: Snapchat
+        description: Snapchat
+        url: http://snapchat.com/add/epsilonrecords
+        id: 1_603_snapchat
+      - title: Mastodon
+        description: Mastodon
+        url: https://mastodonmusic.social/@epsilonrecords
+        id: 2_603_mastodon
+      - title: Instagram
+        description: Instagram
+        url: https://instagram.com/epsilonrecords
+        id: 3_603_instagram
+        statusCheck: false
+      - title: Reddit
+        description: Reddit
+        url: https://reddit.com/r/EpsilonRecords
+        id: 4_603_reddit
+  - name: Partners
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: 3tonemusic
+        description: 3tonemusic
+        url: https://3tonemusic.com
+        id: 0_847_tonemusic
+      - title: Beatport
+        description: Beatport
+        url: https://beatport.com/
+        id: 1_847_beatport
+      - title: Traxsource
+        description: Traxsource
+        url: https://traxsource.com/
+        id: 2_847_traxsource
+      - title: Red Alfa Records
+        description: Red Alfa Records
+        url: https://redalfarecords.com/
+        id: 3_847_redalfarecords
+      - title: Distribution Platforms
+        description: Distribution Platforms
+        url: https://epsilonrecords.nl/distribution
+        id: 4_847_alldistributionpartners
+      - title: Midjourney
+        description: Midjourney
+        url: https://midjourney.com/
+        statusCheck: false
+        id: 5_847_midjourney
+      - title: DanceSafe
+        description: DanceSafe
+        url: https://dancesafe.org
+        id: 6_847_dancesafe
+      - title: Curve Royalty Systems
+        description: Curve Royalty Systems
+        url: https://curveroyaltysystems.com
+        id: 7_847_curveroyaltysystems
+      - title: Bitwig
+        description: Bitwig
+        url: https://www.bitwig.com
+      - title: FabFilter
+        description: FabFilter
+        url: https://www.fabfilter.com
+  - name: Vendors
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 2
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: 1Password
+        description: Secret management
+        url: https://1password.com
+        id: 0_737_password
+      - title: Stripe
+        description: Payment processing
+        url: https://stripe.com
+        id: 1_737_stripe
+      - title: Wells Fargo
+        description: Banking
+        url: https://wellsfargo.com
+        id: 2_737_wellsfargo
+      - title: ABN AMRO
+        description: Banking
+        url: https://abnamro.nl
+        id: 3_737_abnamro
+      - title: Pipedrive
+        description: CRM
+        url: https://pipedrive.com
+        id: 4_737_pipedrive
+      - title: Fudget
+        description: Budgeting
+        url: https://fudget.com
+        id: 5_737_fudget
+      - title: WordPress
+        description: Blogging platform
+        url: https://wordpress.org
+        id: 6_737_wordpress
+      - title: Ghost
+        description: Blogging platform
+        url: https://ghost.org
+        id: 7_737_ghost
+      - title: Squarespace
+        description: Make it beautiful
+        url: https://squarespace.com
+        id: 8_737_squarespace
+      - title: Cloudflare
+        description: DNS
+        url: https://cloudflare.com
+        id: 9_737_cloudflare
+      - title: Fastmail
+        description: Email hosting
+        url: https://fastmail.com
+        id: 10_737_fastmail
+      - title: Mailchimp
+        description: Email marketing
+        url: https://mailchimp.com
+        id: 11_737_mailchimp
+      - title: Shopify
+        description: E-commerce
+        url: https://shopify.com
+        id: 12_737_shopify
+      - title: Twilio
+        description: Messaging
+        url: https://twilio.com
+        id: 13_737_twilio
+      - title: Venmo
+        description: Cash transfers
+        url: https://venmo.com
+        id: 14_737_vemo
+      - title: Calendly
+        description: Scheduling
+        url: https://calendly.com
+        id: 15_737_calendly
+      - title: Dropbox
+        description: File synchronisation
+        url: https://dropbox.com
+        id: 16_737_dropbox
+      - title: FreshBooks
+        description: Invoicing
+        url: https://freshbooks.com
+        id: 17_737_freshbooks
+      - title: Xero
+        description: Accounting
+        url: https://xero.com
+        id: 18_737_xero
+      - title: DocuSign
+        description: E-signatures
+        url: https://docusign.com
+        id: 19_737_docusign
+      - title: ExpressVPN
+        description: VPN
+        url: https://expressvpn.com
+        id: 20_737_expressvpn
+      - title: TextExpander
+        description: Snippet management
+        url: https://textexpander.com
+        id: 21_737_textexpander
+      - title: Backblaze
+        description: Backups
+        url: https://backblaze.com
+        id: 22_737_backblaze
+      - title: Todoist
+        description: Todo management
+        url: https://todoist.com
+        id: 23_737_todoist
+      - title: Elgato
+        description: Streamdeck
+        url: https://elgato.com
+        id: 24_737_elgato
+      - title: 8x8
+        description: VOIP
+        url: https://8x8.com
+        id: 25_737_x
+      - title: Dynadot
+        description: Domain registration
+        url: https://dynadot.com
+        id: 26_737_dynadot
+      - title: Linode
+        description: Cloud computing
+        url: https://linode.com
+        statusCheck: false
+        id: 27_737_linode
+      - title: SimpleBackups
+        description: Backups
+        url: https://simplebackups.com
+        statusCheck: true
+      - title: GitLab
+        description: Git hosting
+        url: https://gitlab.com
+        statusCheck: true
+      - title: Fireside
+        description: Podcast hosting
+        url: https://fireside.fm
+        statusCheck: true
+      - title: Factorial
+        description: Payroll & HR
+        url: https://factorialhr.com
+        statusCheck: true
+      - title: Netlify
+        description: Jamstack hosting
+        url: https://netlify.com
+        statusCheck: true
