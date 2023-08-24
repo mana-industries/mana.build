@@ -64,22 +64,8 @@ sections:
         url: https://track.mana.build
         id: 9_716_youtrack
   - type: code-stats
-    updateInterval: 300
     options:
       username: natehouk
-  - type: github-profile-stats
-    updateInterval: 300
-    options:
-      username: natehouk
-      repos:
-      - natehouk/mana.party
-      - natehouk/mana.industries
-      - natehouk/manamusic.app
-  - type: HealthChecks
-    updateInterval: 60
-    options:
-      apiKey: 
-        - rbj8YY3uuQlRaJRqpIlnBTH4kREEQmAG
   - type: domain-monitor
     options:
       domain: mana.party
