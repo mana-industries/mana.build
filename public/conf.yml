@@ -152,18 +152,22 @@ sections:
       options:
         domain: mana.party
         apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+        showFullInfo: true
     - type: domain-monitor
       options:
         domain: mana.industries
         apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+        showFullInfo: true
     - type: domain-monitor
       options:
         domain: mana.fail
         apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+        showFullInfo: true
     - type: domain-monitor
       options:
         domain: manamusic.app
         apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+        showFullInfo: true
   - name: Timezones
     displayData:
       sortBy: alphabetical
