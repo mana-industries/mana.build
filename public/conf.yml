@@ -34,6 +34,7 @@ appConfig:
           username: natehouk
           repos:
           - natehouk/mana.party
+          - natehouk/mana.build
           - natehouk/mana.industries
           - natehouk/manamusic.app
   - name: Health Checks
