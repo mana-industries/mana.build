@@ -29,7 +29,6 @@ appConfig:
     items:
       widgets:
       - type: github-profile-stats
-        updateInterval: 300
         options:
           username: natehouk
           repos:
