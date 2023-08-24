@@ -15,7 +15,7 @@ appConfig:
   layout: horizontal
   iconSize: large
   language: en
-  disableConfiguration: false
+  disableConfiguration: true
   defaultOpeningMethod: sametab
   statusCheck: true
 sections:
@@ -63,30 +63,49 @@ sections:
         description: Issue tracking system
         url: https://track.mana.build
         id: 9_716_youtrack
-  - name: Code Stats
-    type: code-stats
-    options:
-      username: natehouk
-  - name: mana.party
-    type: domain-monitor
-    options:
-      domain: "mana.party"
-      apiKey: "052cd3dac2af7b74d9a93688835c0e5e"
-  - name: mana.industries
-    type: domain-monitor
-    options:
-      domain: mana.industries
-      apiKey: 052cd3dac2af7b74d9a93688835c0e5e
-  - name: mana.fail
-    type: domain-monitor
-    options:
-      domain: mana.fail
-      apiKey: 052cd3dac2af7b74d9a93688835c0e5e
-  - name: manamusic.app
-    type: domain-monitor
-    options:
-      domain: manamusic.app
-      apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+  - name: Stats
+    icon: ''
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      widgets:
+      - type: code-stats
+        updateInterval: 300
+        options:
+          username: natehouk
+      - type: github-profile-stats
+        updateInterval: 300
+        options:
+          username: natehouk
+          repos:
+          - natehouk/mana.party
+          - natehouk/mana.industries
+          - natehouk/manamusic.app
+      - type: HealthChecks
+        updateInterval: 60
+        options:
+          apiKey: 
+            - rbj8YY3uuQlRaJRqpIlnBTH4kREEQmAG
+      - type: domain-monitor
+        options:
+          domain: mana.party
+          apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+      - type: domain-monitor
+        options:
+          domain: mana.industries
+          apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+      - type: domain-monitor
+        options:
+          domain: mana.fail
+          apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+      - type: domain-monitor
+        options:
+          domain: manamusic.app
+          apiKey: 052cd3dac2af7b74d9a93688835c0e5e
   - name: Epsilon Records
     icon: ''
     displayData:
