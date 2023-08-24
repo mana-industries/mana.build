@@ -139,6 +139,24 @@ sections:
   #     options:
   #       apiKey: 
   #         - rbj8YY3uuQlRaJRqpIlnBTH4kREEQmAG
+  - name: Timezones
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    widgets:
+      - type: clock
+        options:
+          timeZone: Europe/London
+          format: en-GB
+          hideDate: false
+      - type: clock
+        options:
+          timeZone: Europe/Amsterdam
+          format: en-GB
+          hideDate: false
   - name: Domains
     icon: ''
     displayData:
@@ -168,24 +186,6 @@ sections:
         domain: manamusic.app
         apiKey: 052cd3dac2af7b74d9a93688835c0e5e
         showFullInfo: true
-  - name: Timezones
-    displayData:
-      sortBy: alphabetical
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    widgets:
-      - type: clock
-        options:
-          timeZone: Europe/London
-          format: en-GB
-          hideDate: false
-      - type: clock
-        options:
-          timeZone: Europe/Amsterdam
-          format: en-GB
-          hideDate: false
   - name: Artists
     icon: ''
     displayData:
