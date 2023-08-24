@@ -63,24 +63,6 @@ sections:
         description: Issue tracking system
         url: https://track.mana.build
         id: 9_716_youtrack
-  - name: Code Stats
-    icon: ''
-    displayData:
-      sortBy: alphabetical
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      widgets:
-      - type: github-profile-stats
-        options:
-          username: natehouk
-          repos:
-          - natehouk/mana.party
-          - natehouk/mana.build
-          - natehouk/mana.industries
-          - natehouk/manamusic.app
   - name: Health Checks
     icon: ''
     displayData:
