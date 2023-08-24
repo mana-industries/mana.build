@@ -15,7 +15,7 @@ appConfig:
   layout: horizontal
   iconSize: large
   language: en
-  disableConfiguration: true
+  disableConfiguration: false
   defaultOpeningMethod: sametab
   statusCheck: true
 sections:
