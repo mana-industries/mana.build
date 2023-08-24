@@ -63,22 +63,27 @@ sections:
         description: Issue tracking system
         url: https://track.mana.build
         id: 9_716_youtrack
-  - type: code-stats
+  - name: Code Stats
+    type: code-stats
     options:
       username: natehouk
-  - type: domain-monitor
+  - name: mana.party
+    type: domain-monitor
     options:
       domain: mana.party
       apiKey: 052cd3dac2af7b74d9a93688835c0e5e
-  - type: domain-monitor
+  - name: mana.industries
+    type: domain-monitor
     options:
       domain: mana.industries
       apiKey: 052cd3dac2af7b74d9a93688835c0e5e
-  - type: domain-monitor
+  - name: mana.fail
+    type: domain-monitor
     options:
       domain: mana.fail
       apiKey: 052cd3dac2af7b74d9a93688835c0e5e
-  - type: domain-monitor
+  - name: manamusic.app
+    type: domain-monitor
     options:
       domain: manamusic.app
       apiKey: 052cd3dac2af7b74d9a93688835c0e5e
