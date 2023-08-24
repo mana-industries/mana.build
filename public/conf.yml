@@ -108,37 +108,37 @@ sections:
         url: https://patreon.com/epsilonrecords
         statusCheck: false
         id: 2_965_patreon
-  - name: Code Stats
-    icon: ''
-    displayData:
-      sortBy: alphabetical
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    widgets:
-    - type: github-profile-stats
-      options:
-        username: natehouk
-        repos:
-        - natehouk/mana.party
-        - natehouk/mana.build
-        - natehouk/mana.industries
-        - natehouk/manamusic.app
-  - name: Health Checks
-    icon: ''
-    displayData:
-      sortBy: alphabetical
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    widgets:
-    - type: HealthChecks
-      updateInterval: 60
-      options:
-        apiKey: 
-          - rbj8YY3uuQlRaJRqpIlnBTH4kREEQmAG
+  # - name: Code Stats
+  #   icon: ''
+  #   displayData:
+  #     sortBy: alphabetical
+  #     rows: 1
+  #     cols: 1
+  #     collapsed: false
+  #     hideForGuests: false
+  #   widgets:
+  #   - type: github-profile-stats
+  #     options:
+  #       username: natehouk
+  #       repos:
+  #       - natehouk/mana.party
+  #       - natehouk/mana.build
+  #       - natehouk/mana.industries
+  #       - natehouk/manamusic.app
+  # - name: Health Checks
+  #   icon: ''
+  #   displayData:
+  #     sortBy: alphabetical
+  #     rows: 1
+  #     cols: 1
+  #     collapsed: false
+  #     hideForGuests: false
+  #   widgets:
+  #   - type: HealthChecks
+  #     updateInterval: 60
+  #     options:
+  #       apiKey: 
+  #         - rbj8YY3uuQlRaJRqpIlnBTH4kREEQmAG
   - name: Domains
     icon: ''
     displayData:
