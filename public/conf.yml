@@ -160,6 +160,11 @@ sections:
           timeZone: Europe/Amsterdam
           format: en-GB
           hideDate: false
+      - type: clock
+        options:
+          timeZone: Asia/Ulaanbaatar
+          format: en-GB
+          hideDate: false
   - name: Domains
     icon: ''
     displayData:
