@@ -7,7 +7,10 @@ pageInfo:
       path: https://mana.fail
       target: sametab
     - title: Email
-      path: https://mail.epsilonrecords.com
+      path: https://mail.mana.build
+      target: sametab
+    - title: Login
+      path: https://login.mana.build
       target: sametab
   footerText: © 2023 MANA Group
 appConfig:
