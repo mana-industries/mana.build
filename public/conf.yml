@@ -86,10 +86,6 @@ sections:
         description: Chat server
         url: https://chat.mana.party
         id: 4_716_gitea
-      - title: Prometheus
-        description: Prometheus monitoring
-        url: https://prometheus.mana.build
-        id: 5_716_prometheus
       - title: API
         description: Application programming interface
         url: https://api.mana.party
