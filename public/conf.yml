@@ -75,10 +75,12 @@ sections:
       - title: MANA Brain
         description: AI-powered creative suite
         url: https://beta.mana.party
-      - title: Gitea
+      - title: GitHub
         description: Git code repository
+        url: http://github.com/mana-industries
+      - title: Gitea
+        description: Git code mirror
         url: https://git.mana.build
-        statusCheck: false
         id: 3_716_gitea
       - title: Chat
         description: Chat server
