@@ -54,16 +54,27 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: Home
-        description: MANA
-        icon: ''
-        url: https://mana.party
-        id: 0_716_home
-      - title: Argo CD
-        description: Kubernetes automation
-        url: https://cd.mana.build
-        statusCheck: false
-        id: 2_716_argocd
+      - title: MANA Labels
+        description: Label collective
+        url: https://mana.directory
+      - title: MANA TV
+        description: The new MTV
+        url: https://manatv.app
+      - title: MANA Store
+        description: Merchandise
+        url: https://mana.store
+      - title: MANA Pulse
+        description: Inside the boardroom
+        url: https://managroup.xyz
+      - title: MANA Industries
+        description: Holding company
+        url: https://mana.industries
+      - title: MANA Music App
+        description: Mobile app
+        url: https://manamusic.app
+      - title: MANA Brain
+        description: AI-powered creative suite
+        url: https://beta.mana.party
       - title: Gitea
         description: Git code repository
         url: https://git.mana.build
