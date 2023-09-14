@@ -196,7 +196,7 @@ sections:
         showFullInfo: true
     - type: domain-monitor
       options:
-        domain: mana.buiid
+        domain: mana.build
         apiKey: 052cd3dac2af7b74d9a93688835c0e5e
         showFullInfo: true
     - type: domain-monitor
