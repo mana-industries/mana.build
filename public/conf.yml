@@ -416,6 +416,7 @@ sections:
       - title: Wells Fargo
         description: Banking
         url: https://wellsfargo.com
+        statusCheck: false
         id: 2_737_wellsfargo
       - title: ABN AMRO
         description: Banking
@@ -443,6 +444,7 @@ sections:
       - title: Wise
         description: International transfers
         url: https://wise.com
+        statusCheck: false
       - title: Calendly
         description: Scheduling
         url: https://calendly.com
