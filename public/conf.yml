@@ -88,10 +88,6 @@ sections:
         description: Prometheus monitoring
         url: https://prometheus.mana.build
         id: 5_716_prometheus
-      - title: Auth0
-        description: Authorization server
-        url: https://auth.mana.party
-        id: 7_716_auth0
       - title: API
         description: Application programming interface
         url: https://api.mana.party
