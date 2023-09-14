@@ -369,10 +369,9 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: 3tonemusic
-        description: 3tonemusic
-        url: https://3tonemusic.com
-        id: 0_847_tonemusic
+      - title: Symphonic
+        description: Symphonic distribution
+        url: http://symphonic.com
       - title: Beatport
         description: Beatport
         url: https://beatport.com/
@@ -381,10 +380,6 @@ sections:
         description: Traxsource
         url: https://traxsource.com/
         id: 2_847_traxsource
-      - title: Red Alfa Records
-        description: Red Alfa Records
-        url: https://redalfarecords.com/
-        id: 3_847_redalfarecords
       - title: Distribution Platforms
         description: Distribution Platforms
         url: https://epsilonrecords.nl/distribution
@@ -452,9 +447,9 @@ sections:
         description: International transfers
         url: https://wise.com
         statusCheck: false
-      - title: Calendly
+      - title: Cal
         description: Scheduling
-        url: https://calendly.com
+        url: https://cal.com
         id: 15_737_calendly
       - title: Dropbox
         description: File synchronisation
