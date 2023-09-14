@@ -409,10 +409,6 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: 1Password
-        description: Secret management
-        url: https://1password.com
-        id: 0_737_password
       - title: Stripe
         description: Payment processing
         url: https://stripe.com
@@ -429,22 +425,6 @@ sections:
         description: CRM
         url: https://pipedrive.com
         id: 4_737_pipedrive
-      - title: Fudget
-        description: Budgeting
-        url: https://fudget.com
-        id: 5_737_fudget
-      - title: WordPress
-        description: Blogging platform
-        url: https://wordpress.org
-        id: 6_737_wordpress
-      - title: Ghost
-        description: Blogging platform
-        url: https://ghost.org
-        id: 7_737_ghost
-      - title: Squarespace
-        description: Make it beautiful
-        url: https://squarespace.com
-        id: 8_737_squarespace
       - title: Cloudflare
         description: DNS
         url: https://cloudflare.com
@@ -455,20 +435,14 @@ sections:
         id: 10_737_fastmail
       - title: Mailchimp
         description: Email marketing
-        url: https://mailchimp.com
-        id: 11_737_mailchimp
+        url: https://mailerlite.com
       - title: Shopify
         description: E-commerce
         url: https://shopify.com
         id: 12_737_shopify
-      - title: Twilio
-        description: Messaging
-        url: https://twilio.com
-        id: 13_737_twilio
-      - title: Venmo
-        description: Cash transfers
-        url: https://venmo.com
-        id: 14_737_vemo
+      - title: Wise
+        description: International transfers
+        url: https://wise.com
       - title: Calendly
         description: Scheduling
         url: https://calendly.com
@@ -477,10 +451,6 @@ sections:
         description: File synchronisation
         url: https://dropbox.com
         id: 16_737_dropbox
-      - title: FreshBooks
-        description: Invoicing
-        url: https://freshbooks.com
-        id: 17_737_freshbooks
       - title: Xero
         description: Accounting
         url: https://xero.com
@@ -489,26 +459,21 @@ sections:
         description: E-signatures
         url: https://docusign.com
         id: 19_737_docusign
-      - title: ExpressVPN
+      - title: Tailscale
         description: VPN
-        url: https://expressvpn.com
-        id: 20_737_expressvpn
+        url: https://tailscale.com
       - title: TextExpander
         description: Snippet management
         url: https://textexpander.com
         id: 21_737_textexpander
       - title: Backblaze
-        description: Backups
+        description: Cloud backups
         url: https://backblaze.com
         id: 22_737_backblaze
       - title: Todoist
         description: Todo management
         url: https://todoist.com
         id: 23_737_todoist
-      - title: Elgato
-        description: Streamdeck
-        url: https://elgato.com
-        id: 24_737_elgato
       - title: 8x8
         description: VOIP
         url: https://8x8.com
@@ -517,28 +482,31 @@ sections:
         description: Domain registration
         url: https://dynadot.com
         id: 26_737_dynadot
-      - title: Linode
+      - title: DigitalOcean
         description: Cloud computing
-        url: https://linode.com
+        url: https://digitalocean.com
         statusCheck: false
-        id: 27_737_linode
+      - title: Hetzner
+        description: Bare metal servers
+        url: https://digitalocean.com
+        statusCheck: false
       - title: SimpleBackups
         description: Backups
         url: https://simplebackups.com
         statusCheck: true
-      - title: GitLab
+      - title: GitHub
         description: Git hosting
-        url: https://gitlab.com
+        url: https://github.com
         statusCheck: true
-      - title: Fireside
-        description: Podcast hosting
-        url: https://fireside.fm
-        statusCheck: true
-      - title: Factorial
+      - title: FactorialHR
         description: Payroll & HR
         url: https://factorialhr.com
         statusCheck: true
       - title: Netlify
         description: Jamstack hosting
+        url: https://netlify.com
+        statusCheck: true
+      - title: Vercel
+        description: Next.js hosting
         url: https://netlify.com
         statusCheck: true
