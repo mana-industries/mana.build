@@ -22,6 +22,29 @@ appConfig:
   defaultOpeningMethod: sametab
   statusCheck: true
 sections:
+  - name: Timezones
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    widgets:
+      - type: clock
+        options:
+          timeZone: Europe/London
+          format: en-GB
+          hideDate: false
+      - type: clock
+        options:
+          timeZone: Europe/Amsterdam
+          format: en-GB
+          hideDate: false
+      - type: clock
+        options:
+          timeZone: Asia/Ulaanbaatar
+          format: en-GB
+          hideDate: false
   - name: MANA Group
     icon: ''
     displayData:
@@ -142,29 +165,6 @@ sections:
   #     options:
   #       apiKey: 
   #         - rbj8YY3uuQlRaJRqpIlnBTH4kREEQmAG
-  - name: Timezones
-    displayData:
-      sortBy: alphabetical
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    widgets:
-      - type: clock
-        options:
-          timeZone: Europe/London
-          format: en-GB
-          hideDate: false
-      - type: clock
-        options:
-          timeZone: Europe/Amsterdam
-          format: en-GB
-          hideDate: false
-      - type: clock
-        options:
-          timeZone: Asia/Ulaanbaatar
-          format: en-GB
-          hideDate: false
   - name: Domains
     icon: ''
     displayData:
