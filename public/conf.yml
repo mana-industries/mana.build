@@ -87,10 +87,10 @@ sections:
       - title: MANA Newsletter
         description: Subscribe to our newsletter
         url: https://managroup.xyz/newsletter
-      - title: MANA API
-        description: Application programming interface
-        url: https://api.mana.party
-        id: 8_716_api
+      # - title: MANA API
+      #   description: Application programming interface
+      #   url: https://api.mana.party
+      #   id: 8_716_api
   # - name: Code Stats
   #   icon: ''
   #   displayData:
