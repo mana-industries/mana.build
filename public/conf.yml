@@ -88,23 +88,23 @@ sections:
         description: Application programming interface
         url: https://api.mana.party
         id: 8_716_api
-  - name: Code Stats
-    icon: ''
-    displayData:
-      sortBy: alphabetical
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    widgets:
-    - type: github-profile-stats
-      options:
-        username: natehouk
-        repos:
-        - natehouk/mana.party
-        - natehouk/mana.build
-        - natehouk/mana.industries
-        - natehouk/manamusic.app
+  # - name: Code Stats
+  #   icon: ''
+  #   displayData:
+  #     sortBy: alphabetical
+  #     rows: 1
+  #     cols: 1
+  #     collapsed: false
+  #     hideForGuests: false
+  #   widgets:
+  #   - type: github-profile-stats
+  #     options:
+  #       username: natehouk
+  #       repos:
+  #       - natehouk/mana.party
+  #       - natehouk/mana.build
+  #       - natehouk/mana.industries
+  #       - natehouk/manamusic.app
   # - name: Health Checks
   #   icon: ''
   #   displayData:
