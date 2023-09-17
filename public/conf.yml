@@ -3,13 +3,13 @@ pageInfo:
   title: MANA
   description: Unleash your musical potential.
   navLinks:
-    - title: System Status
+    - title: System Status 🚀
       path: https://mana.fail
       target: sametab
-    - title: Email
+    - title: Email 📧
       path: https://mail.mana.build
       target: sametab
-    - title: Login
+    - title: Login 🔑
       path: https://login.mana.build
       target: sametab
   footerText: © 2023 MANA Group
