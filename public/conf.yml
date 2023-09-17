@@ -81,9 +81,9 @@ sections:
       - title: MANA Open Source
         description: Git code repository
         url: http://github.com/mana-industries
-      - title: MANA Storybook
-        description: Frontend UI Component Library
-        url: https://storybook.mana.build
+      # - title: MANA Storybook
+      #   description: Frontend UI Component Library
+      #   url: https://storybook.mana.build
       - title: MANA Newsletter
         description: Subscribe to our newsletter
         url: https://managroup.xyz/newsletter
