@@ -88,7 +88,7 @@ sections:
         description: Application programming interface
         url: https://api.mana.party
         id: 8_716_api
-  - name: Epsilon Records
+  - name: Code Stats
     icon: ''
     displayData:
       sortBy: alphabetical
@@ -96,60 +96,15 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-    items:
-      - title: Home
-        description: Epsilon Records
-        icon: ''
-        url: https://epsilonrecords.nl
-        id: 0_716_home
-      - title: Merch Shop
-        description: Merch Shop
-        icon: ''
-        url: https://epsilon.gifts
-        id: 1_716_merchshop
-      - title: Blog
-        description: Read our blog
-        url: https://epsilonrecords.nl/blog
-        id: 2_716_blog
-      - title: Contact
-        description: Contact us
-        url: https://epsilonrecords.nl/contact
-        id: 3_716_contact
-      - title: Our Artists
-        description: Our label artists
-        url: https://epsilonrecords.nl/artists
-        id: 4_716_ourartists
-      - title: About
-        description: About the label
-        url: https://epsilonrecords.nl/about
-        id: 5_716_about
-      - title: Our Team
-        description: About our team
-        url: https://epsilonrecords.nl/team
-        id: 6_716_ourteam
-      - title: Patreon
-        description: Support indie music
-        icon: ''
-        url: https://patreon.com/epsilonrecords
-        statusCheck: false
-        id: 2_965_patreon
-  # - name: Code Stats
-  #   icon: ''
-  #   displayData:
-  #     sortBy: alphabetical
-  #     rows: 1
-  #     cols: 1
-  #     collapsed: false
-  #     hideForGuests: false
-  #   widgets:
-  #   - type: github-profile-stats
-  #     options:
-  #       username: natehouk
-  #       repos:
-  #       - natehouk/mana.party
-  #       - natehouk/mana.build
-  #       - natehouk/mana.industries
-  #       - natehouk/manamusic.app
+    widgets:
+    - type: github-profile-stats
+      options:
+        username: natehouk
+        repos:
+        - natehouk/mana.party
+        - natehouk/mana.build
+        - natehouk/mana.industries
+        - natehouk/manamusic.app
   # - name: Health Checks
   #   icon: ''
   #   displayData:
@@ -218,6 +173,51 @@ sections:
         domain: manatv.app
         apiKey: 052cd3dac2af7b74d9a93688835c0e5e
         showFullInfo: true
+  - name: Epsilon Records
+    icon: ''
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Home
+        description: Epsilon Records
+        icon: ''
+        url: https://epsilonrecords.nl
+        id: 0_716_home
+      - title: Merch Shop
+        description: Merch Shop
+        icon: ''
+        url: https://epsilon.gifts
+        id: 1_716_merchshop
+      - title: Blog
+        description: Read our blog
+        url: https://epsilonrecords.nl/blog
+        id: 2_716_blog
+      - title: Contact
+        description: Contact us
+        url: https://epsilonrecords.nl/contact
+        id: 3_716_contact
+      - title: Our Artists
+        description: Our label artists
+        url: https://epsilonrecords.nl/artists
+        id: 4_716_ourartists
+      - title: About
+        description: About the label
+        url: https://epsilonrecords.nl/about
+        id: 5_716_about
+      - title: Our Team
+        description: About our team
+        url: https://epsilonrecords.nl/team
+        id: 6_716_ourteam
+      - title: Patreon
+        description: Support indie music
+        icon: ''
+        url: https://patreon.com/epsilonrecords
+        statusCheck: false
+        id: 2_965_patreon
   - name: Artists
     icon: ''
     displayData:
