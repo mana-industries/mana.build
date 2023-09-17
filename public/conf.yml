@@ -54,7 +54,7 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: MANA Labels
+      - title: MANA Label Collective
         description: Label collective
         url: https://mana.directory
       - title: MANA TV
@@ -65,35 +65,29 @@ sections:
         url: https://mana.store
       - title: MANA Pulse
         description: Inside the boardroom
+        url: https://managroup.xyz/series/pulse
+      - title: MANA Group
+        description: Music, Technology, Community
         url: https://managroup.xyz
       - title: MANA Industries
         description: Holding company
         url: https://mana.industries
-      - title: MANA Music App
+      - title: MANA Party
         description: Mobile app
         url: https://manamusic.app
       - title: MANA Brain
         description: AI-powered creative suite
-        url: https://beta.mana.party
-      - title: GitHub
+        url: https://brain.mana.party
+      - title: MANA Open Source
         description: Git code repository
         url: http://github.com/mana-industries
-      - title: Gitea
-        description: Git code mirror
-        url: https://git.mana.build
-        id: 3_716_gitea
-      - title: Chat
-        description: Chat server
-        url: https://chat.mana.party
-        id: 4_716_gitea
-      - title: API
+      - title: MANA Newsletter
+        description: Subscribe to our newsletter
+        url: https://managroup.xyz/newsletter
+      - title: MANA API
         description: Application programming interface
         url: https://api.mana.party
         id: 8_716_api
-      - title: YouTrack
-        description: Issue tracking system
-        url: https://track.mana.build
-        id: 9_716_youtrack
   - name: Epsilon Records
     icon: ''
     displayData:
