@@ -285,6 +285,7 @@ sections:
         description: Traxsource
         url: https://traxsource.com/
         id: 2_847_traxsource
+        statusCheck: false
       - title: Distribution Platforms
         description: Distribution Platforms
         url: https://epsilonrecords.nl/distribution
