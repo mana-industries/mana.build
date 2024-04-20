@@ -83,7 +83,7 @@ sections:
         url: https://brain.sx
       - title: MANA Open Source
         description: Git code repository
-        url: http://github.com/mana-industries
+        url: https://github.com/orgs/mana-industries/repositories
       # - title: MANA Storybook
       #   description: Frontend UI Component Library
       #   url: https://storybook.mana.build
