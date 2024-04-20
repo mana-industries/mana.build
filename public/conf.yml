@@ -175,7 +175,7 @@ sections:
     items:
       - title: Register
         description: Artist registration
-        url: https://epsilonrecords.nl/register
+        url: https://epsilonrecords.nl/profile
         id: 0_746_register
       - title: Label Services
         description: Services we offer
