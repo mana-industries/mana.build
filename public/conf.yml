@@ -218,12 +218,6 @@ sections:
         description: About our team
         url: https://epsilonrecords.nl/team
         id: 6_716_ourteam
-      - title: Patreon
-        description: Support indie music
-        icon: ''
-        url: https://patreon.com/epsilonrecords
-        statusCheck: false
-        id: 2_965_patreon
   - name: Artists
     icon: ''
     displayData:
@@ -237,29 +231,16 @@ sections:
         description: Artist registration
         url: https://epsilonrecords.nl/register
         id: 0_746_register
-      - title: Submit Demo
-        description: Submit a demo
-        url: https://www.labelradar.com/labels/epsilonrecords/portal
-        id: 4_746_submitdemo
       - title: Label Services
         description: Services we offer
         url: https://epsilonrecords.nl/services
         id: 6_746_labelservices
-      - title: Upload Media
-        description: Private media server
-        url: https://epsilon.tube
-        statusCheck: false
-        id: 8_746_uploadmedia
-      - title: Upload Photos
-        description: Label photo gallery
-        url: https://epsilon.pics
-        id: 9_746_uploadphotos
       - title: Book Meeting
         description: Book a meeting with the team
-        url: https://epsilonrecords.nl/meeting
+        url: https://epsilonrecords.nl/book
         id: 7_716_bookameeting
       - title: Submit Demo
-        description: Request feedback on demo
+        description: Submit a demo
         url: https://epsilonrecords.nl/demo
   - name: Merch
     displayData:
@@ -293,10 +274,6 @@ sections:
         description: Eurorack
         url: https://epsilon.gifts/collections/eurorack
         id: 5_495_eurorack
-      - title: Merch
-        description: Epsilon Merch
-        url: https://epsilon.gifts/collections/merch
-        id: 6_495_merch
       - title: Vinyl
         description: New and Used Vinyl
         url: https://epsilon.gifts/collections/vinyl
