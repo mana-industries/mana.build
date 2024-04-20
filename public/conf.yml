@@ -80,7 +80,7 @@ sections:
         url: https://manamusic.app
       - title: MANA Brain
         description: AI-powered creative suite
-        url: https://brain.mana.party
+        url: https://brain.sx
       - title: MANA Open Source
         description: Git code repository
         url: http://github.com/mana-industries
@@ -125,61 +125,61 @@ sections:
   #     options:
   #       apiKey: 
   #         - rbj8YY3uuQlRaJRqpIlnBTH4kREEQmAG
-  # - name: Domains
-  #   icon: ''
-  #   displayData:
-  #     sortBy: alphabetical
-  #     rows: 1
-  #     cols: 1
-  #     collapsed: false
-  #     hideForGuests: false
-  #   widgets:
-  #   - type: domain-monitor
-  #     options:
-  #       domain: mana.party
-  #       apiKey: 052cd3dac2af7b74d9a93688835c0e5e
-  #       showFullInfo: true
-  #   - type: domain-monitor
-  #     options:
-  #       domain: mana.industries
-  #       apiKey: 052cd3dac2af7b74d9a93688835c0e5e
-  #       showFullInfo: true
-  #   - type: domain-monitor
-  #     options:
-  #       domain: mana.fail
-  #       apiKey: 052cd3dac2af7b74d9a93688835c0e5e
-  #       showFullInfo: true
-  #   - type: domain-monitor
-  #     options:
-  #       domain: manamusic.app
-  #       apiKey: 052cd3dac2af7b74d9a93688835c0e5e
-  #       showFullInfo: true
-  #   - type: domain-monitor
-  #     options:
-  #       domain: mana.build
-  #       apiKey: 052cd3dac2af7b74d9a93688835c0e5e
-  #       showFullInfo: true
-  #   - type: domain-monitor
-  #     options:
-  #       domain: mana.store
-  #       apiKey: 052cd3dac2af7b74d9a93688835c0e5e
-  #       showFullInfo: true
-  #   - type: domain-monitor
-  #     options:
-  #       domain: mana.directory
-  #       apiKey: 052cd3dac2af7b74d9a93688835c0e5e
-  #       showFullInfo: true
-  #   - type: domain-monitor
-  #     options:
-  #       domain: managroup.xyz
-  #       apiKey: 052cd3dac2af7b74d9a93688835c0e5e
-  #       showFullInfo: true
-  #   - type: domain-monitor
-  #     options:
-  #       domain: manatv.app
-  #       apiKey: 052cd3dac2af7b74d9a93688835c0e5e
-  #       showFullInfo: true
-  
+  - name: Domains
+    icon: ''
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    widgets:
+    - type: domain-monitor
+      options:
+        domain: mana.party
+        apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+        showFullInfo: true
+    - type: domain-monitor
+      options:
+        domain: mana.industries
+        apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+        showFullInfo: true
+    - type: domain-monitor
+      options:
+        domain: mana.fail
+        apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+        showFullInfo: true
+    - type: domain-monitor
+      options:
+        domain: manamusic.app
+        apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+        showFullInfo: true
+    - type: domain-monitor
+      options:
+        domain: mana.build
+        apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+        showFullInfo: true
+    - type: domain-monitor
+      options:
+        domain: mana.store
+        apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+        showFullInfo: true
+    - type: domain-monitor
+      options:
+        domain: mana.directory
+        apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+        showFullInfo: true
+    - type: domain-monitor
+      options:
+        domain: managroup.xyz
+        apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+        showFullInfo: true
+    - type: domain-monitor
+      options:
+        domain: manatv.app
+        apiKey: 052cd3dac2af7b74d9a93688835c0e5e
+        showFullInfo: true
+
   - name: Epsilon Records
     icon: ''
     displayData:
