@@ -7,7 +7,7 @@ pageInfo:
       path: https://mana.fail
       target: sametab
     - title: 📅 Calendar
-      path: https://calendar.mana.build
+      path: https://epsilonrecords.nl/calendar
       target: sametab
     - title: ✉️ Email
       path: https://mail.mana.build
