@@ -232,10 +232,6 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: Discord
-        description: Join our Discord!
-        url: https://discord.gg/epsilonrecords
-        id: 1_965_discord
       - title: Bandcamp
         description: Buy our artists' music direct
         url: https://epsilonrecords.bandcamp.com
@@ -244,7 +240,7 @@ sections:
         description: Follow our Spotify playlist!
         url: https://open.spotify.com/playlist/3V3NcVTRCHomITtmWLb86I?si=62e2cd20a3f448b3
         id: 1_513_spotifyplaylist
-      - title: Soundcloud
+      - title: SoundCloud
         description: SoundCloud
         url: https://soundcloud.com/epsilonrecords
         id: 2_513_soundcloud
@@ -265,23 +261,11 @@ sections:
         url: https://www.tiktok.com/@epsilonrecords
         id: 0_603_tiktok
         statusCheck: false
-      - title: Snapchat
-        description: Snapchat
-        url: http://snapchat.com/add/epsilonrecords
-        id: 1_603_snapchat
-      - title: Mastodon
-        description: Mastodon
-        url: https://mastodonmusic.social/@epsilonrecords
-        id: 2_603_mastodon
       - title: Instagram
         description: Instagram
         url: https://instagram.com/epsilonrecords
         id: 3_603_instagram
         statusCheck: false
-      - title: Reddit
-        description: Reddit
-        url: https://reddit.com/r/EpsilonRecords
-        id: 4_603_reddit
   - name: Partners
     displayData:
       sortBy: alphabetical
