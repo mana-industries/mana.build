@@ -48,7 +48,7 @@
     "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "@architect/sandbox": "^4.5.2",
+    "@architect/sandbox": "^5.8.0",
     "@babel/preset-env": "^7.17.10",
     "@vue/cli-plugin-babel": "^4.5.15",
     "@vue/cli-plugin-eslint": "^5.0.8",
